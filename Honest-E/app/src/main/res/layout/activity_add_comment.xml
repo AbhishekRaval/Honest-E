@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:layout_margin="5dp"
+    tools:context="com.honeste.honest_e.commentAdapter">
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_comment"
+            android:paddingRight="5dp"
+            />
+
+        <EditText
+            android:id="@+id/etaddcomment"
+            android:layout_width="match_parent"
+            android:hint="Add Comment"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:letterSpacing="0.025"
+            android:scrollHorizontally="false"
+            android:scrollbars="vertical"
+            />
+
+        <ImageButton
+            android:id="@+id/btnaddcomment"
+            android:onClick="onAddComment"
+            android:src="@drawable/icon_addcomment"
+            android:layout_width="50dp"
+            android:backgroundTint="#fff"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>
