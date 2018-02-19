@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Honest-E</string>
+    <string name="Registration_link">http://192.168.43.48/WebServices/Json_Webservices.php</string>
+    <string name="click_here"><u>Click Here</u></string>
+</resources>

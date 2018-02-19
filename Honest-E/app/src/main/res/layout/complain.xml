@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center">
+
+
+        <com.honeste.honest_e.CircularImageView
+            android:id="@+id/complaint_profilepic"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/ic_profile" />
+
+        <LinearLayout
+            android:id="@+id/linlyt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Name"
+                android:textStyle="bold"
+                android:textColor="#000" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginTop="3dp"
+                    android:src="@drawable/ic_time" />
+
+                <TextView
+                    android:id="@+id/tvTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:text="Hours Ago"
+                    android:textColor="#9E9E9E" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="right"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tvCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category"
+                android:textColor="#9E9E9E"
+                android:gravity="right"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginTop="2dp"
+                    android:src="@drawable/ic_location" />
+
+                <TextView
+                    android:id="@+id/tvArea"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:text="Area"
+                    android:textColor="#9E9E9E" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#9E9E9E" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:paddingBottom="5dp">
+
+        <TextView
+            android:id="@+id/tvSubCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollHorizontally="false"
+            android:textStyle="bold"
+            android:scrollbars="vertical"
+            android:gravity="left"
+            android:textColor="#000"
+            android:text="Sub Category" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:paddingBottom="5dp"
+        android:orientation="vertical">
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/complain_Description"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/default_complaint" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvComplaintDes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="20dp"
+            android:textColor="#000"
+            android:text="Complaint"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/onPlus"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:background="#0000"
+                android:src="@drawable/ic_action_name"
+                android:text="+1"
+                android:textColor="#000" />
+
+            <ImageButton
+                android:id="@+id/onComment"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:background="#0000"
+                android:src="@drawable/ic_action_comment"
+                android:text="Comments" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:gravity="center"
+
+            android:weightSum="1">
+
+            <ImageButton
+                android:id="@+id/onSettings"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1.87"
+                android:background="#0000"
+                android:src="@drawable/ic_action_edit"
+                android:text="Comments" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
