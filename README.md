@@ -28,7 +28,9 @@ It is enabled with luxurious features like -
 
 Developers :
 - Abhishek Raval, Graduate Computer Science student at Northeastern univeristy.
+
 Email: me@abhishekraval.com | Linkedin: https://www.linkedin.com/in/abhiraval/
 
-- Vishvesh Trivedi, Graduate Applied Computing student at University of Windsor,
+- Vishvesh Trivedi, Graduate Applied Computing student at University of Windsor.
+
 Email: vishtrivedi96@gmail.com | Linkedin: https://www.linkedin.com/in/vishtrivedi96/
