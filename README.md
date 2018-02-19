@@ -7,27 +7,26 @@ Here's Live link to the project: https://play.google.com/store/apps/details?id=c
 
 It is enabled with luxurious features like -
 
--> Hassle-Free Navigation, and Quick Registration
+- Hassle-Free Navigation, and Quick Registration
 
--> Submit a new Complaint in minutes.
+- Submit a new Complaint in minutes.
 
--> View All the complaints posted by other people, if you have the same issue, you can simply like the complaint, instead of posting the new complaint.
+- View All the complaints posted by other people, if you have the same issue, you can simply like the complaint, instead of posting the new complaint.
 
--> Add Comments to someone's complaint if you wish to give your opinion.
+- Add Comments to someone's complaint if you wish to give your opinion.
 
--> Wrote some complaints by mistake? Simply Delete it.
+- Wrote some complaints by mistake? Simply Delete it.
 
--> A typo in the complaint? Edit it without any worries.
+- A typo in the complaint? Edit it without any worries.
 
--> Search Complaints by category as well as by Area.
+- Search Complaints by category as well as by Area.
 
--> A Personalized page for your profile, where you can update your profile picture, view all your complaints or simply change the settings.
+- A Personalized page for your profile, where you can update your profile picture, view all your complaints or simply change the settings.
 
--> Not enjoying the application? Delete all your activities.
+- Not enjoying the application? Delete all your activities.
 
 
 Developers :
-
 1. Abhishek Raval, Graduate Computer Science student at Northeastern univeristy,
 Email: me@abhishekraval.com | Linkedin: https://www.linkedin.com/in/abhiraval/
 
