@@ -146,5 +146,4 @@ public class home extends Fragment implements View.OnClickListener {
             startActivity(FABIntent);
         }
     }
-
 }
